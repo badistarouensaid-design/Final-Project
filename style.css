@@ -1,0 +1,75 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{ 
+    font-family:'Space Grotesk', sans-serif;
+
+}
+
+
+.navbar {
+    background-color :#F97C0D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 20px;
+    height: 76px;
+
+}
+
+.logo {
+    font-family: 'Anton', sans-serif;
+    font-size: 44px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+
+.menu{
+    display : flex;
+    gap: 28px;
+    margin-left: 60px;
+    margin-right: auto;
+
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.nav-actions{
+    display: flex;
+    gap: 10px;
+
+}
+
+.pill{
+    background-color: black;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.hero{
+    background-image: 
+linear-gradient(rgba(225, 225, 225, 0.85), rgba(225, 225, 225, 0.85)),
+ url('https://images.unsplash.com/photo-1599707254554-027aeb4deacd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjAxN3wwfDF8c2VhcmNofDEwfHxjaGFudGllcnxlbnwwfHx8fDE3OTM2MTIyNjh8MA&ixlib=rb-4.1.0&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450');
+background-size: cover;
+background-position: center;
+min-height: 572px;
+padding: 160px 90px 0;
+
+
+}
+
