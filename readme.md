@@ -1,4 +1,4 @@
-# Thomas dog bell
+# Badis Tarouensaid
 
 Voici la table des matières de mon rendu
 - [Code of the electronic part↗](cwiot/project.ino)
@@ -6,7 +6,7 @@ Voici la table des matières de mon rendu
 - [Moodboard](#moodboard)
 - [UI on figma](#figma-ui)
 - [Code of the web part↗](dww/index.html)
-- [Video](#video)
+- [https://youtu.be/iLeDxzEyvjg](#video)
 
 ## schematic view
 <picture>
@@ -32,7 +32,14 @@ This prototype uses an Adafruit HUZZAH32, along with a push button. It also incl
 
 ## Figma UI
 
-![share your figma project](images/UI-figma.png)
+<picture>
+  <img
+    src="figma.pdf"
+    alt="figma" 
+    height="360" 
+    width="640" />
+</picture>
+
 
 >[!TIP]
 >This file is part of the dww figma, so I cannot fully share it. Your documentation should include a link to your figma: `[figma UI↗](https://figma.com/your-design)`
@@ -42,5 +49,7 @@ Here is a preview of the assignment.
 ![mockup-preview](images/mockup-preview.png)
 
 ## Video
-
+<video
+source = "https://youtu.be/iLeDxzEyvjg"
+>
 [See the video on youtube↗](https://youtu.be/7-YfWs-cX3M)
