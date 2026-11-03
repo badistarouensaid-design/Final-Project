@@ -41,7 +41,7 @@ body{
 .menu a{
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 
@@ -63,13 +63,61 @@ body{
 
 .hero{
     background-image: 
-linear-gradient(rgba(225, 225, 225, 0.85), rgba(225, 225, 225, 0.85)),
- url('https://images.unsplash.com/photo-1599707254554-027aeb4deacd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjAxN3wwfDF8c2VhcmNofDEwfHxjaGFudGllcnxlbnwwfHx8fDE3OTM2MTIyNjh8MA&ixlib=rb-4.1.0&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450');
+linear-gradient(rgba(225, 0, 225, 0), rgba(225, 225, 225, 0.0)),
+ url('../images/fond2.png');
 background-size: cover;
 background-position: center;
-min-height: 572px;
+min-height: CALC(100vh - 76px);
 padding: 160px 90px 0;
-
 
 }
 
+.hero-content{
+    max-width: 650px;
+
+}
+
+.hero h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 64px;
+    line-height: 1.1;
+    color: white;
+
+}
+
+.accent{
+    color: #F97C0D;
+
+}
+
+.hero p{
+    font-size: 18px;
+    color: white;
+    margin-top: 16px;
+    max-width: 520px;
+
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content:flex-start;
+    gap: 20px;
+    margin-top:40px;
+    
+
+}
+
+.btn{
+    background-color: #F97C0D;
+    color: white;
+    padding: 10px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.btn-outline{
+    background-color: transparent;
+    border: 2px solid white;
+}
